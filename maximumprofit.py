@@ -9,3 +9,5 @@ def maximumProfit(prices):
     return maxProfit
 
 print(maximumProfit([7,1,5,3,6,4]))
+
+
