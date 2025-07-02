@@ -5,12 +5,15 @@
 # return the reversed string
 
 def reverseString(s):
-    len = len(s)
-    half = len // 2
+    n = len(s)  # Use a different variable name
+    half = n // 2
     for i in range(half):
-        s[i], s[len - i - 1] = s[len - i - 1], s[i]
+        temp = s[i]
+        s[i] = s[n - i - 1]
+        s[n - i - 1] = temp
     return s
 
-print(reverseString(["h","e","l","l","o"]))
+print(reverseString(["h", "e", "l", "l", "o"]))  # ['o', 'l', 'l', 'e', 'h']
+
 
 

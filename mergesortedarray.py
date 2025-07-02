@@ -1,4 +1,4 @@
-# first approach to merge two sorted arrays
+# first approach to merge two sorted arrays create a copy
 
 def mergeSortedArray(nums1, m, nums2, n):
     nums1copy = nums1[:m]

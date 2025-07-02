@@ -19,8 +19,8 @@ print(singleNumber([4,1,2,1,2]))
 
 def singleNumbers(nums):
     xor = 0
-    for x in range(len(nums)):
-        xor ^= nums[x]
+    for i in range(len(nums)):
+        xor ^= nums[i]
     return xor
 
 print(singleNumbers([6,1,2,1,2]))
